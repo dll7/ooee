@@ -4,8 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-	<title>多合一图床 - Cdn图床,百度图床,阿里图床,京东图床,搜狗图床,搜狐图床,QQ图床,58图床,头条图床,网易图床,360图床,葫芦侠图床</title>
-	<meta name="keywords" content="多合一图床,Cdn图床,百度图床,阿里图床,京东图床,搜狗图床,搜狐图床,QQ图床,XKX图床,58图床,头条图床,网易图床,360图床,葫芦侠图床" />
+	<title>大厂图床 - 全球CDN加速，支持HTTPS！</title>
+	<meta name="keywords" content="Cdn图床,百度图床,阿里图床,京东图床,搜狗图床,搜狐图床,QQ图床,XKX图床,58图床,头条图床,网易图床,360图床,葫芦侠图床" />
 	<link rel="shortcut icon" href="https://pic.rmb.bdstatic.com/bjh/7f258369bc7cae227053a6588adb2453.png" />
   	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jialezi/imgs@latest/static/style.css">
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
@@ -56,15 +56,45 @@
 			<div class="list"></div>
 		</div>
 	</div>
-	<div id="footer" style="position:fixed;width: 100%;text-align: center;bottom: 0px;display: block;">
-		<div style="height: 20px">
-		<p style="color:#000;">您的IP:
-		<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
-		<script>document.write(returnCitySN["cname"])</script>  
-		© 
-		<a style="text-decoration:none;" href="https://zhujiwiki.com/">主机百科</a>
-		</p>
-		</div>
+	
+	<div class="footer-text">
+<div style="text-align: center;">
+<div><i class="io io-dengpao"></i>请勿上传违反中国大陆和香港法律的图片，违者后果自负.</div>
+<span class="add-info">
+本站服务托管在 <a href="https://www.cloudflare.com/" target="_blank" rel="noopener">Cloudflare Pages</a>
+<div style="margin-top: 10px;">
+
+&nbsp;
+
+<span id="momk"></span><span id="momk" style="color: #ff0000;"></span>
+<script type="text/javascript">
+function NewDate(str) {
+str = str.split('-');
+var date = new Date();
+date.setUTCFullYear(str[0], str[1] - 1, str[2]);
+date.setUTCHours(0, 0, 0, 0);
+return date;
+}
+function momxc() {
+var birthDay =NewDate("2021-3-13");
+var today=new Date();
+var timeold=today.getTime()-birthDay.getTime();
+var sectimeold=timeold/1000
+var secondsold=Math.floor(sectimeold);
+var msPerDay=24*60*60*1000; var e_daysold=timeold/msPerDay;
+var daysold=Math.floor(e_daysold);
+var e_hrsold=(daysold-e_daysold)*-24;
+var hrsold=Math.floor(e_hrsold);
+var e_minsold=(hrsold-e_hrsold)*-60;
+var minsold=Math.floor((hrsold-e_hrsold)*-60); var seconds=Math.floor((minsold-e_minsold)*-60).toString();
+document.getElementById("momk").innerHTML = "本站勉强运行:"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+setTimeout(momxc, 1000);
+}momxc();
+</script>
+
+<div>Copyright © 2021 A<a href="//www.ooee.top"> ooee收藏夹</a></div>
+
+</div>
 		</div>
 </body>
 </html>
